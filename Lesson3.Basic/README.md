@@ -1,16 +1,33 @@
-# Input and Arithmetic Operations
+
+```markdown
+# Python Basics
+
+This README provides examples of some fundamental Python features, such as input and arithmetic operations, creating tuples and lists, list slicing, replacing elements in a list, sorting lists, and a variety of list methods.
+
+## Input and Arithmetic Operations
+
+```python
 a = int(input('Please, enter something: '))
 print(a * 2)
+```
 
-# Creating Tuple and Lists
+## Creating Tuple and Lists
+
+```python
 a = 'str1', 'str2', 'str3' # This is a tuple
 a = ['Oleksandr', 'Roman', 'Roman', True, False, 2, 10.9] # This is a list
+```
 
-# List Slicing
+## List Slicing
+
+```python
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "melon", "mango"]
 print(thislist[2:5]) # It will print ['cherry', 'orange', 'kiwi']
+```
 
-# Replacing Elements in a List
+## Replacing Elements in a List
+
+```python
 thislist = ["apple", "banana", "cherry"]
 thislist[1] = "blackcurrant" # Replaces "banana" with "blackcurrant"
 print(thislist)
@@ -22,16 +39,22 @@ print(thislist)
 thislist = ["apple", "banana", "cherry", "orange", "kiwi", "mango"]
 thislist[1:5] = ["blackcurrant", "watermelon"] # Replaces "banana", "cherry", "orange", and "kiwi" with "blackcurrant" and "watermelon"
 print(thislist)
+```
 
-# Sorting Lists
+## Sorting Lists
+
+```python
 thislist = ["apple", "ampple", "banana", "cherry", "orange", "kiwi", "mango"]
 sorted_list = sorted(thislist) # Sorts the list in ascending order
 print(sorted_list)
 
 thislist.sort(reverse=True) # Sorts the list in descending order
 print(thislist)
+```
 
-# List Methods
+## List Methods
+
+```python
 a = [1, 2, 3]
 a.append(4) # Adds 4 to the end of the list
 print(a)
@@ -63,7 +86,9 @@ t.insert(4, 100) # Inserts 100 at the 4th position
 print(t)
 
 a = [1, 2, 3]
-element = a.pop(0) # Removes and returns the item at the given position
+element = a.pop(0) # Removes and returns the
+
+ item at the given position
 print(element)
 
 b = [1, 22, 3]
@@ -71,6 +96,7 @@ b.remove(22) # Removes the first occurrence of 22 from the list
 print(b)
 
 a = [1, 2, 3]
+```
 
 # Python Beginner Tasks
 
