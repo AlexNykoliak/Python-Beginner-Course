@@ -44,9 +44,10 @@ print(id(b))
 
 
 numbers = string.digits
-punctuation = string.punctuation
-lower_case = string.ascii_lowercase
-upper_case = string.ascii_uppercase
+punctuation = string.punctuation  # !"#$%&'()*+,-./:;<=>?@[\]^_`{|}~
+lower_case = string.ascii_lowercase  # abcdefghijklmnopqrstuvwxyz
+upper_case = string.ascii_uppercase  # ABCDEFGHIJKLMNOPQRSTUVWXYZ
+# abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ
 all_letters = string.ascii_letters
 
 print(numbers)
@@ -67,6 +68,9 @@ int()  # Integer
 float()  # Float
 str()  # String
 bool()  # Boolean
+
+a = 10
+a = int(float(str(float(a))))
 
 a = 100    # Integer
 print(type(a))  # <class 'int'>
