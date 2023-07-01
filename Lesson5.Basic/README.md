@@ -1,4 +1,4 @@
-Certainly! Below is the information formatted with README.md markup for GitHub.
+
 
 ```markdown
 # Python Dictionaries
